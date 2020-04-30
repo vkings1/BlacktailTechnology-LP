@@ -249,7 +249,22 @@ nav#mainNav {
 
     .s4_b {
         width: 58%;
-        padding-top: 55px;
         background: #fff;
+        box-shadow: 0 -1px 5px rgba(104, 104, 104, 0.8);
+        margin-top: 60px;
+        padding: 45px 30px 2px 41px;
+        border-radius: 5px;
+
+
+        p.s4_des {
+            font-size: 19px;
+            font-weight: 600;
+        }
+        
     }
+    
+}
+
+section#s5 {
+    margin-top: 169px;
 }
