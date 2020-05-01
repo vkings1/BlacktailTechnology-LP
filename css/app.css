@@ -10,6 +10,7 @@ html, body {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 nav#mainNav {
@@ -125,13 +126,19 @@ nav#mainNav .nav-link {
   border-top-right-radius: 2px;
 }
 
+#s_clean .s_links {
+  display: block;
+  padding: 18px 0 0 130px;
+  font-size: 13px;
+}
+
 #section_2 {
   padding-top: 170px;
 }
 
 #section_2 img.c_p {
-  width: 269px;
-  margin: 63px 0 0 55px;
+  width: 390px;
+  margin: 27px 0 0 7px;
 }
 
 #section_2 img.s_2m {
@@ -222,36 +229,40 @@ nav#mainNav .nav-link {
   border-top-right-radius: 2px;
 }
 
+#sectio_3 .s3_links {
+  padding-top: 27px;
+  font-size: 14px;
+  display: block;
+  padding: 10px 0 0 50px;
+}
+
 #section4 {
-  padding-top: 190px;
+  padding-top: 92px;
 }
 
 #section4 h1.s4_clean {
   font-weight: 700;
   color: #007bff;
   font-size: 59px;
-  width: 42%;
 }
 
 #section4 .s4_download {
   text-align: center;
   background: rgba(104, 104, 104, 0.2);
-  width: 46%;
+  width: 36%;
   margin: 0 auto;
   padding: 32px;
-  margin-top: 84px;
+  margin-top: 53px;
   display: block;
-  /* height: 51px; */
   position: relative;
   border-radius: 1px;
-  left: -247px;
+  left: -169px;
 }
 
 #section4 .s4_download a.s4_d {
   background: #00cbcf;
   color: #fff;
-  /* padding: 18px 55px 18px 47px; */
-  width: 103%;
+  width: 99%;
   position: absolute;
   top: -7px;
   right: 7px;
@@ -261,12 +272,12 @@ nav#mainNav .nav-link {
 }
 
 #section4 .s4_b {
-  width: 58%;
+  width: 106%;
   background: #fff;
   -webkit-box-shadow: 0 -1px 5px rgba(104, 104, 104, 0.8);
-          box-shadow: 0 -1px 5px rgba(104, 104, 104, 0.8);
-  margin-top: 60px;
-  padding: 45px 30px 2px 41px;
+  box-shadow: 0 -1px 5px rgba(104, 104, 104, 0.8);
+  margin-top: 32px;
+  padding: 25px 30px 2px 41px;
   border-radius: 5px;
 }
 
@@ -277,5 +288,89 @@ nav#mainNav .nav-link {
 
 section#s5 {
   margin-top: 169px;
+}
+
+section#s5 img.u_comp {
+  width: 370px;
+}
+
+section#s5 h1 {
+  font-weight: 700;
+  color: #007bff;
+  font-size: 55px;
+}
+
+footer#footerSectio {
+  margin-top: 61px;
+  background-color: #00cbcf;
+  padding: 46px 0;
+  -webkit-box-shadow: 0 -1px 5px rgba(104, 104, 104, 0.8);
+          box-shadow: 0 -1px 5px rgba(104, 104, 104, 0.8);
+  color: #fff;
+}
+
+footer#footerSectio a {
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+footer#footerSectio h4.text-right.py-4 {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.bg1 {
+  position: absolute;
+  background: #c1e9de;
+  padding: 596px;
+  opacity: 0.4;
+  -webkit-box-shadow: 0 1px 5px rgba(104, 104, 104, 0.2);
+          box-shadow: 0 1px 5px rgba(104, 104, 104, 0.2);
+  z-index: -1;
+  right: 0;
+  -webkit-clip-path: circle(50.1% at 107% 49%);
+          clip-path: circle(50.1% at 107% 49%);
+  top: 707px;
+  width: 88%;
+}
+
+.bg2 {
+  position: absolute;
+  background: #c1e9de;
+  padding: 644px;
+  opacity: 0.4;
+  -webkit-box-shadow: 0 1px 5px rgba(104, 104, 104, 0.2);
+          box-shadow: 0 1px 5px rgba(104, 104, 104, 0.2);
+  z-index: -1;
+  left: -11px;
+  -webkit-clip-path: circle(50.1% at 107% 49%);
+          clip-path: circle(50.1% at 107% 49%);
+  top: 672px;
+  width: 102%;
+}
+
+.bg3 {
+  position: absolute;
+  background: #668dc8;
+  padding: 264px;
+  -webkit-clip-path: circle(46.3% at 17% 52%);
+          clip-path: circle(46.3% at 17% 52%);
+  top: 3350px;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+.bg6 {
+  background: rgba(174, 161, 161, 0.2);
+  -webkit-box-shadow: 0 1px 5px rgba(104, 104, 104, 0.2);
+          box-shadow: 0 1px 5px rgba(104, 104, 104, 0.2);
+  z-index: -1;
+  padding: 285px;
+  position: absolute;
+  right: 0;
+  top: 2850px;
+  -webkit-clip-path: circle(47% at 66% 51%);
+          clip-path: circle(47% at 66% 51%);
 }
 /*# sourceMappingURL=app.css.map */
