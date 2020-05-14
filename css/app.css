@@ -41,6 +41,11 @@ nav#mainNav .nav-link {
   right: 6px;
 }
 
+nav#mainNav .a_Agree {
+  position: absolute;
+  right: 10px;
+}
+
 #s_clean {
   padding-top: 190px;
 }
@@ -298,6 +303,32 @@ section#s5 h1 {
   font-weight: 700;
   color: #007bff;
   font-size: 55px;
+}
+
+section#s5 .s3_download {
+  text-align: center;
+  background: rgba(104, 104, 104, 0.2);
+  width: 46%;
+  margin: 0 auto;
+  padding: 32px;
+  margin-top: 84px;
+  display: block;
+  /* height: 51px; */
+  position: relative;
+  border-radius: 1px;
+}
+
+section#s5 .s3_download a.s3_d {
+  background: #00cbcf;
+  color: #fff;
+  /* padding: 18px 55px 18px 47px; */
+  width: 103%;
+  position: absolute;
+  top: -7px;
+  right: 7px;
+  padding: 20px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
 }
 
 footer#footerSectio {
