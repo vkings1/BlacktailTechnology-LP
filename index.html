@@ -18,21 +18,21 @@
 </head>
 <body>
      <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-5" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-light navbar-default py-4" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#"><img class="logo" src="./img/logo.png" alt="logo"> <span class="l_name">SafeSoft</span></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
+      <!-- <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
-          <li class="nav-item n_n">
+          <li class="nav-item ns_n">
             <a class="nav-link n_li" href="#">Download Here <br></a> 
             <div class="a_Agree">By clicking the button above and downloading SafeSoft PC Cleaner,<br> you accept the  <a href="https://safesoftpro.com/license-agreement/">end user license</a>  and <a href="https://safesoftpro.com/privacy-policy/">privacy policy</a> of this site.</div>
           </li>
         </ul>
         
-      </div>
+      </div> -->
     </div>
   </nav>
     <section id="s_clean">
@@ -215,6 +215,22 @@
       </div>
     </section>
     <div class="bg3"></div>
+    <div id="modalPopUP" class="modalPopUP">
+      <div class="bg-primary">
+          <div id="wiat" class="pt-3 pl-4">Wait!</div>
+          <div class="dm">Before you go, you might want to scan your PC for Free!</div>
+          <div id="close" class="close">X</div>
+      </div>
+      <div class="messagesInfo">
+          <span class="gty">Get your free </span>
+          <br>
+          SafeSoft PC Cleaner Today! Scan your PC for junk without risks and hidden installations.
+      </div>
+      <div class="imgInfo"><img class="black" src="img/PC.png" alt="" srcset=""></div>
+       <div class="btnDonwload"> <button class="btndanger">Download Free Version</button></div>
+       <div class="a_bad">By clicking the button above and downloading SafeSoft PC Cleaner, you accept the <a href="https://safesoftpro.com/license-agreement/">end user license</a> license and <a href="https://safesoftpro.com/privacy-policy/">privacy policy</a> of this site.</div>
+    </div>
+    <div id="bodyblack"></div>
     <footer id="footerSectio">
       <div class="container">
           <div class="text-right">
@@ -222,12 +238,11 @@
           </div>
            <h4 class="text-right  py-4">Blacktail Technology © 2020</h4>
       </div>
-       
-     
     </footer>
     <script src="./vendor/jquery/dist/jquery.min.js"></script>
     <script src="./vendor/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/intent.js"></script>
 
 </body>
 </html>
